@@ -172,15 +172,15 @@ console.log(Persona);
 const Avion = {
     numPasajeros: 120,
 
-    despegar: function() {
+    despegar: function () {
         console.log("despegando");
     },
 
-    volar: function() {
+    volar: function () {
         console.log("llegando al destino");
     },
 
-    aterrizar: function() {
+    aterrizar: function () {
         console.log("aterrizando");
     }
 };
@@ -199,24 +199,110 @@ const Paquete = {
         "Reloj"
     ]
 };
+
 console.log(Paquete);
 
 //17.
 
+const Pais = {
+    numHabitantes: 48036890,
+    continente: "Europa",
+    gentilicio: "español"
+};
 
+console.log(Pais);
 
 //18.
 
+const O_Error = {
+    codigo: 208,
+};
+const codError = O_Error.codigo;
+
+console.log(codError);
+
+//19.
+
+const Grupo = {
+    integrantes: [
+        "Laura",
+        "Alba",
+        "Jorge"
+    ],
+
+};
+
+const integrantes = Grupo.integrantes;
+
+console.log(integrantes);
+
 //20.
+
+const Impresora = {
+    tinta: 75
+};
+const nivelesTinta = Impresora.tinta;
+
+console.log(nivelesTinta);
 
 //21.
 
+const Pantalla = {
+    pixeles: [
+        [255, 0, 0],
+        [0, 255, 0],
+        [0, 0, 255]
+    ],
+};
+const pixeles = Pantalla.pixeles;
+
+console.log(pixeles);
+
 //22.
+
+const Movil = {
+    especificaciones: {
+        marca: "Xiaomi",
+        memoria: "128 GB",
+        camara: "60 MP"
+    },
+};
+
+const especificaciones = Movil["especificaciones"];
+console.log(especificaciones);
 
 //23.
 
+const Grupo = {
+    numIntegrantes: 10
+};
+Grupo.numIntegrantes = 5;
+
+console.log(Grupo.numIntegrantes);
+
 //24.
+
+const Pantalla = {
+    dimensiones: "2300x1400"
+};
+Pantalla.dimensiones = "1920x1080";
+
+console.log(Pantalla.dimensiones);
 
 //25.
 
+const Led = {
+    encendido: false
+};
+Led.encendido = !Led.encendido;
+
+console.log(Led.encendido);
+
 //26.
+
+const Movil = {
+    temperatura: "25º"
+};
+Movil.temperatura = "20º";
+
+console.log(Movil.temperatura);
